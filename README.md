@@ -15,26 +15,12 @@ A scalable, sandboxed code runner backend designed to securely evaluate and exec
 
 ## API Specification
 
-### Endpoint: `POST /execute`
+### Endpoint
+`POST /execute`
 
-**Request Payload:**
+### Request Payload
 ```json
 {
   "language": "python",
   "code": "print('Hello World from Sandboxed Runner!')"
-}
-
-### Example Responses
-
-#### 1. Accepted (AC)
-```json
-{
-  "verdict": "Accepted (AC)",
-  "output": "Hello World from Sandboxed Runner!"
-}
-
-{
-  "verdict": "Time Limit Exceeded (TLE)",
-  "executionTime": "3000ms",
-  "output": null
 }
