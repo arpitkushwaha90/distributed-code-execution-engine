@@ -1,0 +1,21 @@
+{
+  "name": "distributed-code-execution-engine",
+  "version": "1.0.0",
+  "description": "Sandboxed remote code execution backend for C++, Python, and Java",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "remote-code-runner",
+    "docker",
+    "online-judge",
+    "sandboxed-execution",
+    "compiler-api"
+  ],
+  "author": "Arpit Kumar",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
