@@ -24,3 +24,23 @@ A scalable, sandboxed code runner backend designed to securely evaluate and exec
   "language": "python",
   "code": "print('Hello World from Sandboxed Runner!')"
 }
+```
+
+## Example Responses
+
+### 1. Accepted (AC)
+```json
+{
+  "verdict": "Accepted (AC)",
+  "output": "Hello World from Sandboxed Runner!"
+}
+```
+
+### 2. Time Limit Exceeded (TLE)
+```json
+{
+  "verdict": "Time Limit Exceeded (TLE)",
+  "executionTime": "3000ms",
+  "output": null
+}
+```
